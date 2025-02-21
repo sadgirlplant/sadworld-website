@@ -1,0 +1,91 @@
+/* General Styles */
+body {
+  font-family: "Rubik Maps", serif;
+  background-color: #f4f4f4;
+  color: #240b5b;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+    background-image: url('https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ3F6cGpwdjhqbWV2ZzRjbThjaXkxa3JobnE1b2tmZ2M4c283NDdtNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/D35fOVm9gSQ91icJeR/giphy.gif');
+    background-size: cover;  /* Ensures the GIF covers the whole screen */
+    background-position: center; /* Centers the GIF */
+    background-repeat: no-repeat; /* Prevents tiling */
+    background-attachment: fixed; /* Keeps the background fixed when scrolling */
+}
+
+
+header .logo {
+  width: 150px;
+  height: auto;
+ margin-top: 30px; /* Moves the logo 20px lower */
+}
+
+h1 {
+  margin: 10px 0 0;
+  font-size: 70px; /* Adjust the size as needed */
+  margin-top: 20px; /* Moves text 20px down */
+}
+
+main {
+  padding: 20px;
+}
+
+.intro {
+  margin-bottom: 30px;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.button {
+  background-color: #240b5b;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  background-color: #240b5b;
+  color: #fff;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.copy-container {
+   
+}
+
+input {
+    width: 300px;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #240b5b;
+    border-radius: 100px;
+}
+
+button {
+    padding: 8px 12px;
+    font-size: 16px;
+ font-family: "Rubik Maps", serif;
+    background-color: #240b5b;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SADWORLD</title>
+  <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Maps&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <img src="images/logo.png" alt="SADWORLD Logo" class="logo">
+    <h1>SADWORLD</h1>
+  </header>
+
+  <main>
+    <section class="intro">
+      <p><span style="color: red;"><span style="font-size: 25px;"> EVERYTHING SUCKS SO LETS GET RICH.</span>.</p>
+    </section>
+
+<div class="copy-container">
+    <input type="text" id="solanaAddress" value="5aJiEhLfgYb4MVQu9nrZeuEQC1paA9etN4WDiYskp98k" readonly>
+    <button onclick="copyAddress()">Copy Address</button>
+</div>
+
+<script>
+    function copyAddress() {
+        var copyText = document.getElementById("solanaAddress");
+        copyText.select();
+        copyText.setSelectionRange(0, 99999); // For mobile devices
+        document.execCommand("copy");  
+    }
+</script>
+
+
+
+    <section class="links">
+      <a href="https://dexscreener.com/solana/5aJiEhLfgYb4MVQu9nrZeuEQC1paA9etN4WDiYskp98k" class="button">Buy on Dex Screener</a>
+      <a href="https://solscan.io/token/5aJiEhLfgYb4MVQu9nrZeuEQC1paA9etN4WDiYskp98k" class="button">View on Solscan</a>
+            <a href="https://twitter.com/sadworldtoken" class="button">Follow on Twitter</a>
+<a 
+href="https://github.com/sadgirlplant/sadworld-project/blob/main/whitepaper.md" class="button">Read the Whitepaper</a>
+
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 SADWORLD. All rights reserved.</p>
+  </footer>
+</body>
+</html>
